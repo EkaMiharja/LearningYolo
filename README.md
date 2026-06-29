@@ -34,4 +34,4 @@ Pelacakan Objek: Perintah model.track(..., classes=[2]) menyaring deteksi agar h
 Titik Acuan (Trigger): Program mencari titik tengah paling bawah dari bounding box mobil (center_y = int(y2)).
 Eksekusi Hitungan: Jika koordinat center_y bernilai lebih besar dari posisi koordinat garis merah (LINE_Y = 350) dan track_id mobil tersebut belum terdaftar di dalam set already_counted, maka variabel counter akan bertambah 1 angka.
 
-##StillLearning
+## StillLearning
