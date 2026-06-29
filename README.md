@@ -17,7 +17,8 @@ Pastikan Anda sudah menginstal Python (disarankan versi 3.8 ke atas) dan menggun
 Buka terminal di PyCharm Anda, lalu instal pustaka yang diperlukan dengan menjalankan perintah berikut:
 
 ```bash
-pip install ultralytics opencv-python mss numpy```
+pip install ultralytics opencv-python mss numpy
+```
 
 ## 💻 Cara Penggunaan
 1. Jalankan file Python Anda (counyolo.py) melalui terminal atau tombol Run di PyCharm.
