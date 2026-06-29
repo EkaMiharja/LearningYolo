@@ -19,7 +19,7 @@ Buka terminal di PyCharm Anda, lalu instal pustaka yang diperlukan dengan menjal
 ```bash
 pip install ultralytics opencv-python mss numpy
 
-💻 Cara Penggunaan
+## 💻 Cara Penggunaan
 1. Jalankan file Python Anda (counyolo.py) melalui terminal atau tombol Run di PyCharm.
 2. Buka browser Anda dan cari video arus lalu lintas di YouTube (misalnya dengan kata kunci "Traffic camera live" atau "Highway traffic video").
 3. Posisikan jendela video YouTube Anda di area kiri atas layar monitor agar masuk ke dalam jangkauan koordinat rekam layar program.
@@ -27,7 +27,7 @@ pip install ultralytics opencv-python mss numpy
 5. Selesai! Perhatikan angka Jumlah Mobil di pojok kiri atas yang akan terus bertambah setiap kali titik hijau di bawah mobil melewati garis merah.
 6. Tekan tombol 'q' pada keyboard untuk menghentikan program dan menutup jendela video.
 
-📊 Cara Kerja Logika Kode
+## 📊 Cara Kerja Logika Kode
 Perekaman Layar: Fungsi mss() mengambil potongan layar pada koordinat kotak {"top": 100, "left": 100, "width": 800, "height": 600}.
 Pelacakan Objek: Perintah model.track(..., classes=[2]) menyaring deteksi agar hanya mendeteksi mobil (ID kelas 2) dan memberikan nomor track_id unik pada setiap mobil.
 Titik Acuan (Trigger): Program mencari titik tengah paling bawah dari bounding box mobil (center_y = int(y2)).
